@@ -1,0 +1,21 @@
+.header__title {
+    font-size: $m-size;
+    margin: 0;
+    padding: 20px 0 10px 20px;
+    font-weight: bold;
+}
+.nav__item {
+    font-size: $s-size;
+    margin: $s-size;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 6px;
+    border-radius: 4px;
+}
+.nav__item:hover {
+    color: rgb(100%, 86.5%, 63.6%);
+}
+.active {
+    color: $orange;
+}

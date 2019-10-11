@@ -1,0 +1,57 @@
+.compose__app {
+    background-color: white;
+    height: 100vh;
+}
+.compose__text {
+    margin: $m-margin;
+    font-size: $s-size;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+// addConstitution
+.textarea__chord {
+    margin: $m-margin; 
+    height: 40px;
+    width: 200px;
+}
+.textarea__lyric {
+    margin: $m-margin;
+    height: 40px;
+    width: 200px;
+}
+.textarea__submit {
+    position: absolute;
+    margin: $m-margin;
+    height: 45px;
+    width: 80px;
+
+}
+
+// constitution
+.select__constitution {
+    margin: $set-margin;
+    position: relative;
+    color: $black;
+}
+.text__chord {
+    font-size: $l-size;
+    margin: $set-margin;
+    color: $black;
+}
+.text__lyric {
+    margin: $set-margin;
+    font-size: $m-size;
+}
+.delete__constitution {
+    margin: $set-margin;
+    border-radius: 4px;
+    color: white;
+    background-color: $black;
+}
+
+// constitutions
+.delete__constitutions {
+    margin: 20px 20px;
+    color: $orange;
+    background-color: black;
+}
